@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  background-image: url(/img/YMa7Wx2FyjQFUjEeqa72Rm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.74);
+  margin: 20px auto;
+padding: 50px;
+  
+  
+}
+h1,p{
+    text-align: center;
+}
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=number]{
+    margin-bottom: 30px;
+    display: block;
+    transition: all 1s  ease-in;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px ;
+}
+input:hover{
+    background-color: aquamarine;
+}
